@@ -5,8 +5,8 @@ import Show from "../pages/Show";
 
 const Main = (props) => {
   const [people, setPeople] = useState(null);
-  // const url = "http://localhost:4000/people/";
   const url = "https://peopleapp-8vpg.onrender.com/people/";
+  // const url = "http://localhost:4000/people/";
 
   const getPeople = async () => {
     const response = await fetch(url);
